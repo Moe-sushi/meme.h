@@ -24,6 +24,8 @@
 // 仅供娱乐，切勿在生产中使用此文件
 #include <stdio.h>
 #include <stdlib.h>
+// 定义个bool(这行居然有用，差评！)
+typedef _Bool bool;
 // 虽然false应该是((_Bool)+0u)，但!true显然更抽象
 #define true ((_Bool)+1u)
 #define false !true
