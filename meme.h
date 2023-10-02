@@ -24,7 +24,7 @@
 // 仅供娱乐，切勿在生产中使用此文件
 #include <stdio.h>
 #include <stdlib.h>
-// 虽然false应该是((_Bool)+0u)，但!true显然更抽象。
+// 虽然false应该是((_Bool)+0u)，但!true显然更抽象
 #define true ((_Bool)+1u)
 #define false !true
 // 众所周知一坤为2.5
@@ -35,7 +35,7 @@
 // 众所周知1141514和1919810是两个经典大幻数
 #define number ((int)114514)
 #define bignumber ((int)1919810)
-// An evil.
+// An evil
 #define lowTowards -->
 #define highTowards ++<
 // 不需要多解释
@@ -52,4 +52,4 @@ typedef double 双精度浮点型;
 #define 化
 #define 发
 // 敏感词规避
-#define SIXTY_FOUR (0b1000000)
+#define SIXTY_FOUR (1<<6)
