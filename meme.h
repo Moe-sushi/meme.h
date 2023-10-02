@@ -52,4 +52,4 @@ typedef double 双精度浮点型;
 #define 化
 #define 发
 // 敏感词规避
-#define SIXTY-FOUR (0b1000000)
+#define SIXTY_FOUR (0b1000000)
