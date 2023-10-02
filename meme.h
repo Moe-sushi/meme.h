@@ -25,8 +25,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 // 定义个bool(这行居然有用，差评！)
+// c2x已经正式引入bool，所以这行其实是兼容老规范。
 typedef _Bool bool;
-// 虽然false应该是((_Bool)+0u)，但!true显然更抽象
+// 虽然官方定义的false应该是((_Bool)+0u)，但!true显然更抽象
 #define true ((_Bool)+1u)
 #define false !true
 // 众所周知一坤为2.5
